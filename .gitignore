@@ -1,0 +1,13 @@
+.RData
+.RDataTmp
+.Rhistory
+.Ruserdata
+.Rproj.user/
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+renv/library/
+renv/staging/
+renv/local/
