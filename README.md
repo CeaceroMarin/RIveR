@@ -83,7 +83,7 @@ Users remain responsible for ensuring that data processing complies with:
 
 The reference environment for RIveR v1.0.0 includes:
 
-- **R 4.6.1**
+- **R 4.5.2**
 - **Shiny >= 1.8.1**
 - **refineR >= 2.0.0**
 - **reflimR >= 1.1.0**
@@ -104,6 +104,7 @@ Additional required R packages include:
 The optional package:
 
 - `mclust`
+- `tidykosmic`
 
 enables Gaussian mixture model exploration.
 
