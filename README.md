@@ -101,14 +101,14 @@ Additional required R packages include:
 - `future`
 - `promises`
 
-The optional package:
+Optional packages include:
 
-- `mclust`
-- `tidykosmic`
+- `mclust`, for Gaussian mixture model exploration.
+- `tidykosmic`, for KOSMIC indirect RI estimation.
 
-enables Gaussian mixture model exploration.
-
-Core RIveR workflows remain available without `mclust`, although GMM exploration will not be available.
+Core RIveR workflows remain available without these optional packages.
+If `tidykosmic` is unavailable, RIveR uses `reflimR` as the secondary
+indirect RI method.
 
 To check and install the required dependencies, run:
 
